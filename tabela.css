@@ -1,0 +1,33 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+
+
+
+
+div{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+thead{
+    background-color: grey;
+}
+
+
+tbody tr:nth-child(odd){
+    background-color: green;
+}
